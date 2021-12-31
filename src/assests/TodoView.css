@@ -1,0 +1,43 @@
+.container {
+	height: 90vh;
+	padding: 10px 10px 0 10px;
+}
+.header {
+	height: 15vh;
+	width: 100%;
+	border-bottom: 2px solid gray;
+}
+.todo-body {
+	height: 80vh;
+	width: 100%;
+}
+.todo-container {
+	margin-top: 6px;
+	height: 70vh;
+	overflow-x: auto;
+}
+.todo-view {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.todo-text {
+	width: 80%;
+}
+.todo-icon {
+	width: 20%;
+	text-align: center;
+}
+.todo-icon .trash {
+	margin-right: 10px;
+	color: rgb(145, 14, 14);
+	font-weight: 600;
+}
+.todo-icon .pen {
+	color: #073eaa;
+}
+.todo-button {
+	text-align: end;
+	padding-right: 20px;
+	padding-top: 20px;
+}
