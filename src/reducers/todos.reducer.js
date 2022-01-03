@@ -4,7 +4,7 @@ import { ADD_TODO, REMOVE_TODO, TOGGLE_TODO } from '../constants/actions.js';
 const reducer = (state, action) => {
 	switch (action.type) {
 		case ADD_TODO:
-			return [...state, { id: uuid.v4(), task: action.task, completed: false }];
+			return [...state, { id: uuid(), task: action.task, completed: false }];
 		case REMOVE_TODO:
 			return state.filter((todo) => todo.id !== action.id);
 		case TOGGLE_TODO:

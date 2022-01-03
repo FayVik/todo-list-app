@@ -6,7 +6,6 @@ import { ADD_TODO } from '../constants/actions.js';
 
 export default function CreateForm() {
 	const dispatch = useContext(DispatchContext);
-
 	const [value, handleChange, clearValue] = useInputState('');
 
 	return (
@@ -14,9 +13,9 @@ export default function CreateForm() {
 			<form
 				onSubmit={(e) => {
 					e.preventDefault();
+					console.log(dispatch);
 					dispatch({ type: ADD_TODO, task: value });
 					clearValue();
-					console.log(dispatch);
 				}}
 			>
 				<input
