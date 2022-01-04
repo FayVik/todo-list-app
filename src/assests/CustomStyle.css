@@ -36,7 +36,6 @@ span {
 @media screen and (max-width: 760px) {
 	body {
 		width: 100%;
-		background-color: red;
 		margin: 0 !important;
 		height: 100vh;
 		padding: 0 !important;

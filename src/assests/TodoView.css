@@ -29,12 +29,14 @@
 	text-align: center;
 }
 .todo-icon .trash {
-	margin-right: 10px;
 	color: rgb(145, 14, 14);
 	font-weight: 600;
+	cursor: pointer;
 }
 .todo-icon .pen {
+	margin-right: 10px;
 	color: #073eaa;
+	cursor: pointer;
 }
 .todo-button {
 	text-align: end;
