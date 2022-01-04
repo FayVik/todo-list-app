@@ -49,7 +49,6 @@ export default function TodoApp({ id, task, completed }) {
 					onClick={(e) => {
 						e.stopPropagation();
 						dispatch({ type: REMOVE_TODO, id });
-						console.log(e);
 					}}
 				/>
 			</div>

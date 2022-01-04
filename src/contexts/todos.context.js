@@ -3,8 +3,11 @@ import todosReducer from '../reducers/todos.reducer';
 import useLocalStorageReducer from '../hooks/useLocalStorageReducer';
 
 const defaultTodos = [
-	{ id: '0', task: 'Read a book', completed: false },
-	{ id: '1', task: 'Jog in a playground', completed: true },
+	{
+		id: '0',
+		task: 'I want to be a world class React developer',
+		completed: false,
+	},
 	{ id: '2', task: 'Write articles', completed: false },
 ];
 

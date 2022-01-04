@@ -13,7 +13,6 @@ export default function CreateForm() {
 			<form
 				onSubmit={(e) => {
 					e.preventDefault();
-					console.log(dispatch);
 					dispatch({ type: ADD_TODO, task: value });
 					clearValue();
 				}}
